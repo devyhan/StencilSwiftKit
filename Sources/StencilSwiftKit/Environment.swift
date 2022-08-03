@@ -56,6 +56,7 @@ private extension Extension {
     registerTag("call", parser: CallNode.parse)
     registerTag("map", parser: MapNode.parse)
     registerTag("import", parser: ImportNode.parse)
+    registerTag("extends", parser: ExtendsNode.parse)
   }
 }
 
